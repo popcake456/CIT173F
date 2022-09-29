@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$cars=array ("rain", "sunshine", "clouds", "hail", "sleet", "snow", "wind");
+
+echo "We've seen all kinds of weather this month. At the beginning of the month, we had " . $cars[5] . " and " . $cars[6] . ". Then came sunshine with a few " . $cars[2] . "and some " . $cars[0] . ". At least we didn't get any " . $cars[3] . " or " . $cars[4] . ".";
+?>
+
+
+</body>
+</html>
+
